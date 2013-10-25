@@ -12,7 +12,9 @@
       }
 
     </style>
+	<link rel="stylesheet" href="<?php echo base_ul('resources/css/bootstrap.min.js'); ?>" />
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script src="<?php echo base_url('resources/js/bootstrap.js'); ?>"></script>
 	<script type="text/javascript">
 		var map;
 		function initialize() {
